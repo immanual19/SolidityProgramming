@@ -5,6 +5,7 @@ contract MyContract{
     int256 public myInt = -16055;
     uint public myUint = 1;
     uint256 public myUint256 = 1;
+    //Need to learn about these keywords like pure
     function getValue()public pure returns(uint){
         //Local Variable
         uint value=1;
